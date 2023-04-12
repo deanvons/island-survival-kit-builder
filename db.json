@@ -1,0 +1,70 @@
+{
+    "books":[
+        {
+            "id":1,
+            "isbn":"1982137274",
+            "title":"The 7 Habits of Highly Effective People",
+            "author":"Stephen R Covey",
+            "coverImg":"./public/assets/images/1.jpg",
+            "blurb":"The 7 Habits have become famous and are integrated into everyday thinking by millions and millions of people. Why? Because they work! With Sean Covey’s added takeaways on how the habits can be used in our modern age, the wisdom of the 7 Habits will be refreshed for a new generation of leaders. This beloved classic presents a principle-centered approach for solving both personal and professional problems. With penetrating insights and practical anecdotes, Stephen R. Covey reveals a step-by-step pathway for living with fairness, integrity, honesty, and human dignity—principles that give us the security to adapt to change and the wisdom and power to take advantage of the opportunities that change creates."
+        },
+        {
+            "id":2,
+            "isbn":"1577314808",
+            "title":"The Power of Now: A Guide to Spiritual Enlightenment",
+            "author":"Eckhart Tolle",
+            "coverImg":"./public/assets/images/2.jpg",
+            "blurb":"It's no wonder that The Power of Now has sold over 2 million copies worldwide and has been translated into over 30 foreign languages. Much more than simple principles and platitudes, the book takes readers on an inspiring spiritual journey to find their true and deepest self and reach the ultimate in personal growth and spirituality: the discovery of truth and light. In the first chapter, Tolle introduces readers to enlightenment and its natural enemy, the mind. He awakens readers to their role as a creator of pain and shows them how to have a pain-free identity by living fully in the present. The journey is thrilling, and along the way, the author shows how to connect to the indestructible essence of our Being, the eternal, ever-present One Life beyond the myriad forms of life that are subject to birth and death. Featuring a new preface by the author, this paperback shows that only after regaining awareness of Being, liberated from Mind and intensely in the Now, is there Enlightenment."
+        },
+        {
+            "id":3,
+            "isbn":"0140449337",
+            "title":"Meditations",
+            "author":"Marcus Aurelius",
+            "coverImg":"./public/assets/images/3.jpg",
+            "blurb":"Written in Greek by an intellectual Roman emperor without any intention of publication, the Meditations of Marcus Aurelius  offer a wide range of fascinating spiritual reflections and exercises developed as the leader struggled to understand himself and make sense of the universe. Spanning from doubt and despair to conviction and exaltation, they cover such diverse topics as the question of virtue, human rationality, the nature of the gods and the values of leadership. But while the Meditations were composed to provide personal consolation, in developing his beliefs Marcus also created one of the greatest of all works of philosophy: a series of wise and practical aphorisms that have been consulted and admired by statesmen, thinkers and ordinary readers for almost two thousand years. To provide a full understanding of Aurelius's seminal work, this edition includes explanatory notes, a general index, an index of quotations, an index of names, and an introduction by Diskin Clay putting the work in its biographical, historical, and literary context, a chronology of Marcus Aurelius's life and career. For more than seventy years, Penguin has been the leading publisher of classic literature in the English-speaking world. With more than 1,700 titles, Penguin Classics represents a global bookshelf of the best works throughout history and across genres and disciplines. Readers trust the series to provide authoritative texts enhanced by introductions and notes by distinguished scholars and contemporary authors, as well as up-to-date translations by award-winning translators."
+        },
+        {
+            "id":4,
+            "isbn":"0063118386",
+            "title":"Unlocking the Keto Code: The Revolutionary New Science of Keto That Offers More Benefits Without Deprivation (The Plant Paradox, 7)",
+            "author":"Stephen Gundry",
+            "coverImg":"./public/assets/images/4.jpg",
+            "blurb":"From the author of the New York Times bestselling Plant Paradox series comes this revolutionary take on the keto diet that debunks common myths and shows readers how to reap the rewards of keto with less restriction. Like many doctors and nutrition experts, bestselling author Dr. Steven Gundry has long endorsed the ketogenic diet—a style of eating that heavily restricts carbohydrate intake to make the body burn fat for fuel. Because ketosis offers a variety of health benefits, including weight loss, reduced risk of illness, and enhanced energy, Dr. Gundry believed his patients’ efforts to adhere to the challenging regimen was worthwhile. That is, until his research uncovered a shocking truth: We’ve gotten keto all wrong. In Unlocking the Keto Code, Dr. Gundry reveals the biological mechanism that makes keto diets so successful: a cellular process known as “mitochondrial uncoupling.” As it turns out, ketones are not the magical fuel source they’ve been made out to be; in fact, the body cannot run on ketones and fats alone. Over the long term, a very low carb-diet can lead to muscle wasting and poor cognitive health. Luckily, you don’t have to restrict all carbs to reap the benefits of ketosis; you simply have to have enough ketones and other plant compounds called polyphenols present in your body to “unlock” the process of mitochondrial uncoupling. In this insightful, empowering, eminently practical book. Dr. Gundry explains the many ways readers can ignite this process, from feasting on plant-based foods (carbs that are typically off-limits on a keto diet!) to enjoying ketone generating foods such as goat and sheep milk products, to implementing a timed eating schedule. You will even discover the real reason how superfoods, even apple cider vinegar, work their magic; and its not what they you think! Grounded in cutting-edge science, this is the book for all the people who have tried and failed on a keto diet; for vegetarians and vegans who want to go keto; and for anyone who wants to lose weight and enjoy better health while eating a wide variety of foods. With food lists, hacks, and all-new recipes, Unlocking the Keto Code makes going keto easy and enjoyable for the first time."
+        },
+        {
+            "id":5,
+            "isbn":"906312567",
+            "title":"Enter the Kettlebell!: Strength Secret of the Soviet Supermen",
+            "author":"Pavel Tsatsouline",
+            "coverImg":"./public/assets/images/5.jpg",
+            "blurb":"With Enter the Kettlebell! Pavel delivers a significant upgrade to his original landmark work, The Russian Kettlebell Challenge. Drawing on five years of developing and leading the world's first and premiere kettlebell instructor certification program, and after spending five years of additional research into what really works for dramatic results with the kettlebell-we have Enter the Kettlebell!Pavel lays out a foolproof master system that guarantees you success-if you simply follow the commands! . Develop all-purpose strength-to easily handle the toughest and most unexpected demand.. Maximize staying power-because the last round decides all. Forge a fighter's physique-because the form must follow the functionEnter the kettlebell!-and follow the plan:1. The New RKC Program MinimumWith just two kettlebell exercises, takes you from raw newbie to solid contender-well-conditioned, flexible, resilient and muscular in all the right places.2. The RKC Rite of Passage Jumps you to the next level of physical excellence with Pavel's proven RKC formula for exceptional strength and conditioning. 3. Become a Man Among MenPropels you to a Special Forces level of conditioning."
+        }
+
+    ],
+    "coffee":[
+            {
+        "id": 1,
+        "description": "Americano",
+        "price": 49.99
+    },
+    {
+        "id": 2,
+        "description": "Cappucino",
+        "price": 59.99
+    },
+    {
+        "id": 3,
+        "description": "Latte",
+        "price": 69.99
+    },
+    {
+        "id": 4,
+        "description": "Espresso",
+        "price": 39.99
+    }
+
+    ]
+}
+
+
