@@ -149,7 +149,15 @@
       "strings": 6,
       "image": "https://static.gibson.com/product-images/USA/USAPAH661/Vintage%20Cherry/front-banner-1600_900.png"
     }
-  ]
+  ],
+    "users":[
+      {
+        "id":1,
+        "username":"Dean"
+        
+      }
+      
+    ]
 }
 
 
