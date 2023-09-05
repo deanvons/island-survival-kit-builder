@@ -151,7 +151,8 @@
   "users": [
     {
       "id": 1,
-      "username": "reset"
+      "username": "reset",
+      "favourites":[]
     }
   ]
 }
