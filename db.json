@@ -155,4 +155,50 @@
       "favourites":[]
     }
   ]
+  "drinks":[
+  {
+    "id":1,
+    "description":"Heineken",
+    "price":89.99
+  },
+{
+    "id":2,
+    "description":"Ringes",
+    "price":79.99
+  },
+{
+    "id":3,
+    "description":"Aas",
+    "price":99.99
+  },
+{
+    "id":4,
+    "description":"Frydenlund",
+    "price":84.99
+  },
+{
+    "id":5,
+    "description":"Hansa",
+    "price":74.99
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ]
 }
