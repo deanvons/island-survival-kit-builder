@@ -183,5 +183,42 @@
   }
 
 
+  ],
+  "items": [
+    {
+      "id": 1,
+      "title": "Axe",
+      "description": "Increases wood collection by 2x.",
+      "requirements": ["10 wood", "5 stone"],
+      "effect": "double_wood"
+    },
+    {
+      "id": 2,
+      "title": "Super Axe",
+      "description": "Increases wood collection by 4x. Requires rare obsidian.",
+      "requirements": ["10 wood", "5 stone", "1 obsidian"],
+      "effect": "quadruple_wood"
+    },
+    {
+      "id": 3,
+      "title": "Spear",
+      "description": "Increases food gathering by hunting (2x).",
+      "requirements": ["5 wood", "3 stone", "2 vine"],
+      "effect": "double_hunt"
+    },
+    {
+      "id": 4,
+      "title": "Super Spear",
+      "description": "Increases food gathering by hunting (4x). Requires rare fang.",
+      "requirements": ["5 wood", "3 stone", "2 vine", "1 rare fang"],
+      "effect": "quadruple_hunt"
+    },
+    {
+      "id": 5,
+      "title": "Boat",
+      "description": "Gets you off the island",
+      "requirements": ["100 wood","50 vine","50 food"],
+      "effect": "HOME!!!"
+    }
   ]
 }
