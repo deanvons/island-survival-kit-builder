@@ -190,35 +190,40 @@
       "title": "Axe",
       "description": "Increases wood collection by 2x.",
       "requirements": ["10 wood", "5 stone"],
-      "effect": "double_wood"
+      "effect": "double_wood",
+      "img-url":"https://cdn.glitch.global/4ab89df4-051b-4f6c-b564-2317ed5cc084/Axe.png"
     },
     {
       "id": 2,
       "title": "Super Axe",
       "description": "Increases wood collection by 4x. Requires rare obsidian.",
       "requirements": ["10 wood", "5 stone", "1 obsidian"],
-      "effect": "quadruple_wood"
+      "effect": "quadruple_wood",
+      "img-url":"https://cdn.glitch.global/4ab89df4-051b-4f6c-b564-2317ed5cc084/SuperAxe.png"
     },
     {
       "id": 3,
       "title": "Spear",
       "description": "Increases food gathering by hunting (2x).",
       "requirements": ["5 wood", "3 stone", "2 vine"],
-      "effect": "double_hunt"
+      "effect": "double_hunt",
+      "img-url":"https://cdn.glitch.global/4ab89df4-051b-4f6c-b564-2317ed5cc084/Spear.png"
     },
     {
       "id": 4,
       "title": "Super Spear",
       "description": "Increases food gathering by hunting (4x). Requires rare fang.",
       "requirements": ["5 wood", "3 stone", "2 vine", "1 rare fang"],
-      "effect": "quadruple_hunt"
+      "effect": "quadruple_hunt",
+      "img-url":"https://cdn.glitch.global/4ab89df4-051b-4f6c-b564-2317ed5cc084/SuperSpear.png"
     },
     {
       "id": 5,
       "title": "Boat",
       "description": "Gets you off the island",
       "requirements": ["100 wood","50 vine","50 food"],
-      "effect": "HOME!!!"
+      "effect": "HOME!!!",
+      "img-url":"https://cdn.glitch.global/4ab89df4-051b-4f6c-b564-2317ed5cc084/Boat.png"
     }
   ]
 }
