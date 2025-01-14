@@ -66,6 +66,11 @@
       "id": 4,
       "description": "Espresso",
       "price": 39.99
+    },
+    {
+      "description": "Mocha Java",
+      "price": 49.99,
+      "id": 5
     }
   ],
   "guitars": [
@@ -152,206 +157,223 @@
     {
       "id": 1,
       "username": "reset",
-      "affirmations":[]
+      "affirmations": []
     }
   ],
-  "drinks":[
-  {
-    "id":1,
-    "description":"Heineken",
-    "price":89.99
-  },
-{
-    "id":2,
-    "description":"Ringes",
-    "price":79.99
-  },
-{
-    "id":3,
-    "description":"Aas",
-    "price":99.99
-  },
-{
-    "id":4,
-    "description":"Frydenlund",
-    "price":84.99
-  },
-{
-    "id":5,
-    "description":"Hansa",
-    "price":74.99
-  }
-
-
+  "drinks": [
+    {
+      "id": 1,
+      "description": "Heineken",
+      "price": 89.99
+    },
+    {
+      "id": 2,
+      "description": "Ringes",
+      "price": 79.99
+    },
+    {
+      "id": 3,
+      "description": "Aas",
+      "price": 99.99
+    },
+    {
+      "id": 4,
+      "description": "Frydenlund",
+      "price": 84.99
+    },
+    {
+      "id": 5,
+      "description": "Hansa",
+      "price": 74.99
+    }
   ],
   "tools": [
     {
       "id": 1,
       "title": "Axe",
       "description": "Increases wood collection by 2x.",
-      "requirements": ["10 wood", "5 stone"],
+      "requirements": [
+        "10 wood",
+        "5 stone"
+      ],
       "effect": "double_wood",
-      "img-url":"https://cdn.glitch.global/4ab89df4-051b-4f6c-b564-2317ed5cc084/Axe.png"
+      "img-url": "https://cdn.glitch.global/4ab89df4-051b-4f6c-b564-2317ed5cc084/Axe.png"
     },
     {
       "id": 2,
       "title": "Super Axe",
       "description": "Increases wood collection by 4x. Requires rare obsidian.",
-      "requirements": ["10 wood", "5 stone", "1 obsidian"],
+      "requirements": [
+        "10 wood",
+        "5 stone",
+        "1 obsidian"
+      ],
       "effect": "quadruple_wood",
-      "img-url":"https://cdn.glitch.global/4ab89df4-051b-4f6c-b564-2317ed5cc084/SuperAxe.png"
+      "img-url": "https://cdn.glitch.global/4ab89df4-051b-4f6c-b564-2317ed5cc084/SuperAxe.png"
     },
     {
       "id": 3,
       "title": "Spear",
       "description": "Increases food gathering by hunting (2x).",
-      "requirements": ["5 wood", "3 stone", "2 vine"],
+      "requirements": [
+        "5 wood",
+        "3 stone",
+        "2 vine"
+      ],
       "effect": "double_hunt",
-      "img-url":"https://cdn.glitch.global/4ab89df4-051b-4f6c-b564-2317ed5cc084/Spear.png"
+      "img-url": "https://cdn.glitch.global/4ab89df4-051b-4f6c-b564-2317ed5cc084/Spear.png"
     },
     {
       "id": 4,
       "title": "Super Spear",
       "description": "Increases food gathering by hunting (4x). Requires rare fang.",
-      "requirements": ["5 wood", "3 stone", "2 vine", "1 rare fang"],
+      "requirements": [
+        "5 wood",
+        "3 stone",
+        "2 vine",
+        "1 rare fang"
+      ],
       "effect": "quadruple_hunt",
-      "img-url":"https://cdn.glitch.global/4ab89df4-051b-4f6c-b564-2317ed5cc084/SuperSpear.png"
+      "img-url": "https://cdn.glitch.global/4ab89df4-051b-4f6c-b564-2317ed5cc084/SuperSpear.png"
     },
     {
       "id": 5,
       "title": "Boat",
       "description": "Gets you off the island",
-      "requirements": ["100 wood","50 vine","50 food"],
+      "requirements": [
+        "100 wood",
+        "50 vine",
+        "50 food"
+      ],
       "effect": "HOME!!!",
-      "img-url":"https://cdn.glitch.global/4ab89df4-051b-4f6c-b564-2317ed5cc084/Boat.png"
+      "img-url": "https://cdn.glitch.global/4ab89df4-051b-4f6c-b564-2317ed5cc084/Boat.png"
     }
   ],
-  "quiz":[
+  "quiz": [
     {
-  "quizTitle": "Island Survival Quiz",
-  "questions": [
-    {
-      "question": "What is the first thing you should do if you find yourself stranded on a deserted island?",
-      "options": [
-        "Look for food",
-        "Find or build shelter",
-        "Signal for help",
-        "Explore the island"
-      ],
-      "correctAnswer": "Find or build shelter"
-    },
-    {
-      "question": "You are dehydrated and find a small stream. What should you do?",
-      "options": [
-        "Drink directly from the stream",
-        "Boil the water before drinking",
-        "Look for fruits instead",
-        "Ignore it and search for a lake"
-      ],
-      "correctAnswer": "Boil the water before drinking"
-    },
-    {
-      "question": "Which of these can help you find direction if you’re lost?",
-      "options": [
-        "Watching the birds",
-        "Following a stream",
-        "Using a compass",
-        "Observing the moss on trees"
-      ],
-      "correctAnswer": "Using a compass"
-    },
-    {
-      "question": "You’ve built a shelter. Where should it ideally be located?",
-      "options": [
-        "Near the beach",
-        "On a high point of the island",
-        "In the thickest part of the forest",
-        "Close to a water source"
-      ],
-      "correctAnswer": "Close to a water source"
-    },
-    {
-      "question": "Which of these foods is safest to eat on a deserted island?",
-      "options": [
-        "Brightly colored berries",
-        "Mushrooms",
-        "Coconuts",
-        "Unknown plants"
-      ],
-      "correctAnswer": "Coconuts"
-    },
-    {
-      "question": "You come across a wild boar that looks hungry. What should you do?",
-      "options": [
-        "Challenge it to a staring contest",
-        "Climb a tree and wait it out",
-        "Try to make friends with it by sharing food",
-        "Run and hope it can’t catch you"
-      ],
-      "correctAnswer": "Climb a tree and wait it out"
-    },
-    {
-      "question": "You’re really craving dessert. Which of these could you try to make?",
-      "options": [
-        "Coconut crème brûlée",
-        "Pineapple upside-down cake",
-        "Banana peel pie",
-        "Roasted coconut"
-      ],
-      "correctAnswer": "Roasted coconut"
-    },
-    {
-      "question": "Which is the best way to send a signal for help?",
-      "options": [
-        "Write 'HELP' in the sand with big rocks",
-        "Build a giant bonfire",
-        "Release a flock of seagulls with tiny messages",
-        "Yell really loudly"
-      ],
-      "correctAnswer": "Write 'HELP' in the sand with big rocks"
-    },
-    {
-      "question": "You’ve decided to build a raft. Which of these items might help you float?",
-      "options": [
-        "Palm leaves",
-        "Coconuts",
-        "Seaweed",
-        "Sand bags"
-      ],
-      "correctAnswer": "Coconuts"
-    },
-    {
-      "question": "After days without a mirror, you finally see your reflection. What’s the best reaction?",
-      "options": [
-        "Panic at your sunburned face",
-        "Give yourself a pep talk",
-        "Practice your rescue speech",
-        "Declare yourself 'Ruler of the Island'"
-      ],
-      "correctAnswer": "Give yourself a pep talk"
-    },
-    {
-      "question": "You find a mysterious message in a bottle. It reads 'Avoid the ____.' What should you assume?",
-      "options": [
-        "Sharks",
-        "Coconuts",
-        "Wild boars",
-        "Island disco parties"
-      ],
-      "correctAnswer": "Sharks"
-    },
-    {
-      "question": "If you had to create a mascot for your island survival, which would be the best choice?",
-      "options": [
-        "A friendly hermit crab",
-        "A grumpy seagull",
-        "A wise old coconut",
-        "A monkey with a mysterious past"
-      ],
-      "correctAnswer": "A wise old coconut"
+      "quizTitle": "Island Survival Quiz",
+      "questions": [
+        {
+          "question": "What is the first thing you should do if you find yourself stranded on a deserted island?",
+          "options": [
+            "Look for food",
+            "Find or build shelter",
+            "Signal for help",
+            "Explore the island"
+          ],
+          "correctAnswer": "Find or build shelter"
+        },
+        {
+          "question": "You are dehydrated and find a small stream. What should you do?",
+          "options": [
+            "Drink directly from the stream",
+            "Boil the water before drinking",
+            "Look for fruits instead",
+            "Ignore it and search for a lake"
+          ],
+          "correctAnswer": "Boil the water before drinking"
+        },
+        {
+          "question": "Which of these can help you find direction if you’re lost?",
+          "options": [
+            "Watching the birds",
+            "Following a stream",
+            "Using a compass",
+            "Observing the moss on trees"
+          ],
+          "correctAnswer": "Using a compass"
+        },
+        {
+          "question": "You’ve built a shelter. Where should it ideally be located?",
+          "options": [
+            "Near the beach",
+            "On a high point of the island",
+            "In the thickest part of the forest",
+            "Close to a water source"
+          ],
+          "correctAnswer": "Close to a water source"
+        },
+        {
+          "question": "Which of these foods is safest to eat on a deserted island?",
+          "options": [
+            "Brightly colored berries",
+            "Mushrooms",
+            "Coconuts",
+            "Unknown plants"
+          ],
+          "correctAnswer": "Coconuts"
+        },
+        {
+          "question": "You come across a wild boar that looks hungry. What should you do?",
+          "options": [
+            "Challenge it to a staring contest",
+            "Climb a tree and wait it out",
+            "Try to make friends with it by sharing food",
+            "Run and hope it can’t catch you"
+          ],
+          "correctAnswer": "Climb a tree and wait it out"
+        },
+        {
+          "question": "You’re really craving dessert. Which of these could you try to make?",
+          "options": [
+            "Coconut crème brûlée",
+            "Pineapple upside-down cake",
+            "Banana peel pie",
+            "Roasted coconut"
+          ],
+          "correctAnswer": "Roasted coconut"
+        },
+        {
+          "question": "Which is the best way to send a signal for help?",
+          "options": [
+            "Write 'HELP' in the sand with big rocks",
+            "Build a giant bonfire",
+            "Release a flock of seagulls with tiny messages",
+            "Yell really loudly"
+          ],
+          "correctAnswer": "Write 'HELP' in the sand with big rocks"
+        },
+        {
+          "question": "You’ve decided to build a raft. Which of these items might help you float?",
+          "options": [
+            "Palm leaves",
+            "Coconuts",
+            "Seaweed",
+            "Sand bags"
+          ],
+          "correctAnswer": "Coconuts"
+        },
+        {
+          "question": "After days without a mirror, you finally see your reflection. What’s the best reaction?",
+          "options": [
+            "Panic at your sunburned face",
+            "Give yourself a pep talk",
+            "Practice your rescue speech",
+            "Declare yourself 'Ruler of the Island'"
+          ],
+          "correctAnswer": "Give yourself a pep talk"
+        },
+        {
+          "question": "You find a mysterious message in a bottle. It reads 'Avoid the ____.' What should you assume?",
+          "options": [
+            "Sharks",
+            "Coconuts",
+            "Wild boars",
+            "Island disco parties"
+          ],
+          "correctAnswer": "Sharks"
+        },
+        {
+          "question": "If you had to create a mascot for your island survival, which would be the best choice?",
+          "options": [
+            "A friendly hermit crab",
+            "A grumpy seagull",
+            "A wise old coconut",
+            "A monkey with a mysterious past"
+          ],
+          "correctAnswer": "A wise old coconut"
+        }
+      ]
     }
-  ]
-}
-
   ]
 }
