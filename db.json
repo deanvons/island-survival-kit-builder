@@ -163,6 +163,11 @@
       "username": "Dr Dean",
       "favourites": [],
       "id": 2
+    },
+    {
+      "username": "",
+      "favourites": [],
+      "id": 3
     }
   ],
   "affirmation_users": [
