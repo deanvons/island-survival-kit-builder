@@ -153,6 +153,13 @@
       "image": "https://static.gibson.com/product-images/USA/USAPAH661/Vintage%20Cherry/front-banner-1600_900.png"
     }
   ],
+  "guitar_shop_users":[
+  {
+    "id": 1,
+    "username": "Dean",
+    "favourites": []
+}
+  ],
   "affirmation_users": [
     {
       "id": 1,
