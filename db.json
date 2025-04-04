@@ -392,5 +392,59 @@
         }
       ]
     }
+  ],
+  "survival_items":[
+    {
+    "id": 1,
+    "name": "Water Purifier",
+    "description": "Filters dirty water to make it safe for drinking.",
+    "imageUrl": "https://example.com/images/water_purifier.png"
+  },
+  {
+    "id": 2,
+    "name": "Survival Knife",
+    "description": "Multipurpose knife for cutting, carving, and protection.",
+    "imageUrl": "https://example.com/images/survival_knife.png"
+  },
+  {
+    "id": 3,
+    "name": "Firestarter",
+    "description": "Tool to help you easily start a fire.",
+    "imageUrl": "https://example.com/images/firestarter.png"
+  },
+  {
+    "id": 4,
+    "name": "First Aid Kit",
+    "description": "Essential medical supplies for treating minor injuries.",
+    "imageUrl": "https://example.com/images/first_aid_kit.png"
+  },
+  {
+    "id": 5,
+    "name": "Tarp Shelter",
+    "description": "Lightweight waterproof tarp to build a shelter.",
+    "imageUrl": "https://example.com/images/tarp_shelter.png"
+  },
+  {
+    "id": 6,
+    "name": "Compass",
+    "description": "Helps you navigate and find your direction.",
+    "imageUrl": "https://example.com/images/compass.png"
+  },
+  {
+    "id": 7,
+    "name": "Rope (50ft)",
+    "description": "Durable rope for climbing, building, or securing items.",
+    "imageUrl": "https://example.com/images/rope.png"
+  },
+  {
+    "id": 8,
+    "name": "Multi-tool",
+    "description": "Compact tool with knife, pliers, screwdriver, and more.",
+    "imageUrl": "https://example.com/images/multi_tool.png"
+  }
+
+    
+    
+    
   ]
 }
